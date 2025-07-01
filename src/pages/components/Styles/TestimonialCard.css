@@ -1,0 +1,156 @@
+/* TestimonialCard.css */
+
+.testimonial-container {
+  height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.testimonial-card {
+  background-color: #ffffff;
+  padding: 3rem 2rem;
+  max-width: 589px;
+  width: 101%;
+  height: 110%;
+  text-align: center;
+  /* box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1); */
+  /* border-radius: 12px; */
+  position: relative;
+  right: 367px;
+}
+
+.testmonialtext {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 1.5rem;
+  top: 164px;
+  position: relative;
+}
+
+.quote-icon {
+  font-size: 8rem;
+  color: #e5cfc8;
+  margin-bottom: 1rem;
+}
+
+.quote {
+  font-size: 1.2rem;
+  color: #222;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  font-family: "Georgia", serif;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.decor-line {
+  width: 50px;
+  height: 1px;
+  background-color: #e5e5e5;
+}
+
+.decor-icon {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+.author-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.author-box img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ccc;
+}
+
+.nav-button {
+  background: none;
+  border: 1px solid #ccc;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.nav-button.filled {
+  background-color: #e5cfc8;
+  border-color: transparent;
+  color: #000;
+}
+
+h4 {
+  font-size: 1rem;
+  margin: 0;
+  font-weight: 700;
+}
+
+.role {
+  font-size: 0.85rem;
+  color: #999;
+}
+
+@media (max-width: 768px) {
+  .testimonial-container {
+    padding: 1rem;
+    height: auto;
+  }
+
+  /* .testimonial-card {
+    padding: 2rem 1.5rem;
+  } */
+
+  .testimonial-card {
+    background-color: #ffffff;
+    padding: 3rem 2rem;
+    max-width: 589px;
+    width: 101%;
+    height: 110%;
+    text-align: center;
+    /* box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1); */
+    /* border-radius: 12px; */
+    position: relative;
+    right: 0px;
+  }
+
+  .testmonialtext {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 1.5rem;
+    top: 0px;
+    position: relative;
+  }
+
+  .quote {
+    font-size: 1rem;
+  }
+
+  .nav-button {
+    padding: 0.4rem 0.8rem;
+  }
+
+  .author-box img {
+    width: 50px;
+    height: 50px;
+  }
+}

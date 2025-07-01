@@ -1,0 +1,175 @@
+/* AboutIntro.css */
+.aboutintro {
+  width: 100%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.aboutintro-container {
+  display: flex;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 60px 40px;
+  gap: 60px;
+  align-items: center;
+}
+
+.aboutintro-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.aboutintro-content h1 {
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 1.25;
+  margin-bottom: 30px;
+  color: #222;
+  letter-spacing: -0.8px;
+}
+
+.aboutintro-content p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #555;
+  max-width: 650px;
+}
+
+.aboutintro-image {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.aboutintro-image img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.aboutintro-bottom-image {
+  width: 100%;
+}
+
+.aboutintro-bottom-image img {
+  width: 100%;
+  height: 268px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .aboutintro-container {
+    gap: 50px;
+    padding: 50px 40px;
+  }
+
+  .aboutintro-content h1 {
+    font-size: 38px;
+  }
+
+  .aboutintro-image img {
+    max-width: 550px;
+  }
+
+  .aboutintro-bottom-image img {
+    height: 450px;
+  }
+}
+
+@media (max-width: 992px) {
+  .aboutintro-container {
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px 40px;
+  }
+
+  .aboutintro-content {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .aboutintro-content p {
+    max-width: 100%;
+  }
+
+  .aboutintro-image img {
+    max-width: 650px;
+  }
+
+  .aboutintro-bottom-image img {
+    height: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .aboutintro-container {
+    padding: 40px 30px;
+    gap: 35px;
+  }
+
+  .aboutintro-content h1 {
+    font-size: 32px;
+    margin-bottom: 25px;
+    letter-spacing: -0.5px;
+  }
+
+  .aboutintro-content p {
+    font-size: 17px;
+  }
+
+  .aboutintro-bottom-image img {
+    height: 350px;
+  }
+}
+
+@media (max-width: 576px) {
+  .aboutintro-container {
+    padding: 35px 25px;
+    gap: 30px;
+  }
+
+  .aboutintro-content h1 {
+    font-size: 28px;
+  }
+
+  .aboutintro-content p {
+    font-size: 16px;
+    line-height: 1.75;
+  }
+
+  .aboutintro-image img {
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .aboutintro-bottom-image img {
+    height: 280px;
+  }
+}
+
+@media (max-width: 400px) {
+  .aboutintro-container {
+    padding: 30px 20px;
+  }
+
+  .aboutintro-content h1 {
+    font-size: 24px;
+    letter-spacing: -0.3px;
+  }
+
+  .aboutintro-content p {
+    font-size: 15px;
+  }
+
+  .aboutintro-bottom-image img {
+    height: 220px;
+  }
+}
