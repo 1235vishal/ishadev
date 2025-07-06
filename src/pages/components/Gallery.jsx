@@ -269,6 +269,7 @@
 
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { useRef, useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Styles/gallery.css';
 
 const Gallery = () => {
@@ -343,10 +344,14 @@ const Gallery = () => {
             <h2 className="gallery-title">Gallery</h2>
             <p className="gallery-subtitle">CHECK OUR RECENT PROJECTS</p>
           </div>
-                  <button className="see-full-gallery">
+                  {/* <button className="see-full-gallery">
                       <span className="see-full-text">See Full Gallery
                       </span>    
-          </button>
+          </button> */}
+                  <Link to="/Gallerypage" className="see-full-gallery">
+  <span className="see-full-text">See Full Gallery</span>    
+</Link>
+
         </div>
       </div>
       

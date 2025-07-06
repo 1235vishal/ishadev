@@ -386,3 +386,9 @@
   outline: 2px solid #d4a574;
   outline-offset: 4px;
 }
+.maincontact-map-details {
+  text-align: center;
+  font-size: 0.95rem;
+  margin-top: 10px;
+  color: #333;
+}

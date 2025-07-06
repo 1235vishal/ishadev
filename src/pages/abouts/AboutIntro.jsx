@@ -5,9 +5,10 @@ const AboutIntro = () => {
     <div className="aboutintro">
       <div className="aboutintro-container">
         <div className="aboutintro-content">
-          <h1>Welcome to Grenda, a premier catering and event planning company in New York, USA.</h1>
+                  <h1>Story Of Magnoliya Grand Manor</h1>
+                  <h2> WELCOME TO MAGNOLIYA GRAND MANOR</h2>
           <p>
-            Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside...
+          Welcome to Magnoliya Grand Manor (MgM), where extraordinary events and unforgettable conferences find their home. Attached to the esteemed Hilton Garden Inn, we are proud to be your premier event destination conveniently nestled just 25 miles from the vibrant heart of Washington, D.C., and a mere 12 miles from Dulles International Airport (IAD), ensuring easy accessibility for all your guests.
           </p>
         </div>
         <div className="aboutintro-image">

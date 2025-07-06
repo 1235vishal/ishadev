@@ -137,3 +137,14 @@
 .placeholder-style {
   display: block;
 }
+.error-text {
+  color: red;
+  font-size: 0.85rem;
+  margin-top: 4px;
+}
+.map-address {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: #333;
+  text-align: center;
+}

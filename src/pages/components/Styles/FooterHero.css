@@ -1,0 +1,66 @@
+.footer-hero {
+  height: 60vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  padding: 30px;
+  border-radius: 12px;
+  color: white;
+  max-width: 90%;
+  /* backdrop-filter: blur(5px); */
+}
+
+.top-text {
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+h1 {
+  font-family: "Georgia", serif;
+  font-style: italic;
+  font-size: 3rem;
+  margin-bottom: 25px;
+}
+
+.Footerhero-button {
+  background-color: #f5c7af;
+  border: none;
+  color: #fff;
+  padding: 14px 32px;
+  font-size: 16px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: "Georgia", serif;
+}
+
+.Footerhero-button:hover {
+  background-color: #e6b79f;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .hero-button {
+    padding: 10px 24px;
+    font-size: 14px;
+  }
+
+  .top-text {
+    font-size: 14px;
+  }
+}

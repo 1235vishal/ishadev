@@ -21,12 +21,18 @@
 }
 
 .aboutintro-content h1 {
-  font-size: 42px;
+  /* font-size: 42px;
   font-weight: 600;
   line-height: 1.25;
   margin-bottom: 30px;
   color: #222;
-  letter-spacing: -0.8px;
+  letter-spacing: -0.8px; */
+  color: var(--e-global-color-accent);
+  font-family: "PT Serif", Sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 60px;
 }
 
 .aboutintro-content p {
@@ -34,6 +40,7 @@
   line-height: 1.8;
   color: #555;
   max-width: 650px;
+  font-family: "PT Serif", Sans-serif;
 }
 
 .aboutintro-image {
@@ -138,16 +145,20 @@
 
   .aboutintro-content h1 {
     font-size: 28px;
+    text-align: left;
+    line-height: inherit;
   }
 
   .aboutintro-content p {
     font-size: 16px;
     line-height: 1.75;
+    text-align: left;
   }
 
   .aboutintro-image img {
     border-radius: 4px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    height: 253px;
   }
 
   .aboutintro-bottom-image img {
@@ -170,6 +181,6 @@
   }
 
   .aboutintro-bottom-image img {
-    height: 220px;
+    height: 107px;
   }
 }

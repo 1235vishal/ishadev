@@ -495,6 +495,8 @@
 
 
 import { ChevronUp, Facebook, Instagram, MapPin, Twitter, Youtube } from 'lucide-react';
+import { Link } from 'react-router-dom'; // ✅ Import Link
+
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -540,11 +542,11 @@ const Footer = () => {
           <div className="hotelfooter-center">
             <h3 className="hotelfooter-section-title">Explore</h3>
             <nav className="hotelfooter-nav-menu">
-              <a href="#about-us" className="hotelfooter-nav-link">About Us</a>
-              <a href="#services" className="hotelfooter-nav-link">Services</a>
-              <a href="#gallery" className="hotelfooter-nav-link">Gallery</a>
-              <a href="#blog" className="hotelfooter-nav-link">Blog</a>
-              <a href="#contact" className="hotelfooter-nav-link">Contact</a>
+            <Link to="/Aboutus" className="hotelfooter-nav-link">About Us</Link>
+    <Link to="/services" className="hotelfooter-nav-link">Services</Link>
+    <Link to="/Gallerypage" className="hotelfooter-nav-link">Gallery</Link>
+    <Link to="/blog" className="hotelfooter-nav-link">Blog</Link>
+    <Link to="/ContactUs" className="hotelfooter-nav-link">Contact</Link>
             </nav>
           </div>
 
@@ -566,23 +568,79 @@ const Footer = () => {
             </div>
 
             {/* Social Media Icons */}
-            <div className="hotelfooter-social-icons">
-              <a href="#" className="hotelfooter-social-icon" aria-label="Facebook">
-                <Facebook size={16} />
-              </a>
-              <a href="#" className="hotelfooter-social-icon" aria-label="Twitter">
-                <Twitter size={16} />
-              </a>
-              <a href="#" className="hotelfooter-social-icon" aria-label="YouTube">
-                <Youtube size={16} />
-              </a>
-              <a href="#" className="hotelfooter-social-icon" aria-label="Instagram">
-                <Instagram size={16} />
-              </a>
-              <a href="#" className="hotelfooter-social-icon" aria-label="Pinterest">
-                <MapPin size={16} />
-              </a>
-            </div>
+           {/* Social Media Icons */}
+<div className="hotelfooter-social-icons">
+  <a
+    href="https://www.facebook.com/magnoliyagrand/"
+    className="hotelfooter-social-icon"
+    aria-label="Facebook"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Facebook size={16} />
+  </a>
+
+  <a
+    href="https://x.com/MagnoliyaGrand"
+    className="hotelfooter-social-icon"
+    aria-label="Twitter"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Twitter size={16} />
+  </a>
+
+  <a
+    href="https://www.youtube.com/channel/UCNG6YVfx2i9b5O98vgE7rFw"
+    className="hotelfooter-social-icon"
+    aria-label="YouTube"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Youtube size={16} />
+  </a>
+
+  <a
+    href="https://www.instagram.com/magnoliyagrand/"
+    className="hotelfooter-social-icon"
+    aria-label="Instagram"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Instagram size={16} />
+  </a>
+
+  <a
+    href="https://www.linkedin.com/in/magnoliya-grand-7727b92ab"
+    className="hotelfooter-social-icon"
+    aria-label="LinkedIn"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <MapPin size={16} />
+  </a>
+
+  <a
+  href="https://www.tiktok.com/@magnoliyagrand?_t=ZT-8tbtueOhSP5&_r=1"
+  className="hotelfooter-social-icon"
+  aria-label="TikTok"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="16"
+    height="16"
+    fill="currentColor"
+    viewBox="0 0 24 24"
+    aria-hidden="true"
+  >
+    <path d="M12.43 1.5h3.77a5.29 5.29 0 0 0 4.3 4.32v3.66a8.74 8.74 0 0 1-4.15-1.06v6.95a6.96 6.96 0 1 1-6.96-6.96c.8 0 1.55.15 2.24.44v3.77a3.25 3.25 0 1 0 1.8 2.91V1.5z" />
+  </svg>
+</a>
+
+</div>
+
           </div>
         </div>
 

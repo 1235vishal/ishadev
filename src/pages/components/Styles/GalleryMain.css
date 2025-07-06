@@ -1,0 +1,50 @@
+.gallery-main {
+  padding: 50px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.gallery-heading {
+  font-size: 24px;
+  font-family: "Georgia", serif;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+/* Masonry Layout */
+.my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -15px; /* gutter size offset */
+  width: auto;
+}
+
+.my-masonry-grid_column {
+  padding-left: 15px; /* gutter size */
+  background-clip: padding-box;
+}
+
+.my-masonry-grid_column > img {
+  margin-bottom: 15px;
+}
+
+.gallery-img {
+  width: 100%;
+  display: block;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.gallery-img:hover {
+  transform: scale(1.03);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .gallery-heading {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+}
